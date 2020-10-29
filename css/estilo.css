@@ -114,35 +114,6 @@ ul {
 	transition-duration: .5s;
 }
 
-/*overlay*/
-.overlay {
-	background-color: rgba(210, 105, 30, .5);
-	width: 100%;
-	height: 100%;
-	margin: 0 auto;
-	position: absolute;
-	left: 0;
-	top: 0;
-	padding-left: 2rem;
-	padding-right: 2rem;
-
-}
-
-/*  separadores  */
-.separator {
-	height: 2px;
-	width: 60px;
-	margin: 5px auto;
-	background: #000;
-}
-
-.separator2 {
-	height: 2px;
-	width: 60px;
-	margin: 20px 0px;
-	background: #000;
-}
-
 /*  Top header styles   */
 .top_header {
 	height: 100px;
@@ -158,39 +129,22 @@ ul {
 	color: #8B4513;
 }
 
-.top_header .head_location_details {
-	display: none;
-}
-
 @media screen and (min-width: 558px) {
-	.top_header .head_location_details {
-		display: block;
-	}
 
 	.top_header .head_phone_details {
 		border-right: 2px solid #8B4513;
 		padding-left: 20px;
 		padding-top: 10px;
-		height: 70px;
-		margin-top: 15px;
-		transform: translateX(120px);
 	}
 
-	.top_header .head_phone_details i,
-	.title,
-	span {
-		float: left;
-	}
 
 	.top_header i {
 		font-size: 2em;
 		padding: 4px 5px 0 0;
-		float: left;
 	}
 
 	.top_header .head_location {
 		width: 230px;
-		float: right;
 		height: 20px;
 	}
 
@@ -201,7 +155,6 @@ ul {
 
 	.top_header .head_location .span_location {
 		margin-left: 14px;
-		margin-top: -35px;
 	}
 }
 
@@ -272,10 +225,7 @@ ul {
 
 /*     Main banner styles    */
 .main_banner {
-	position: relative;
-	z-index: 99999;
 	height: 300px;
-	margin-bottom: -50px;
 }
 
 .main_banner img {
@@ -284,10 +234,6 @@ ul {
 
 .main_banner .banner_inner_text {
 	width: 60%;
-	position: absolute;
-	top: 25%;
-	left: 50%;
-	transform: translateX(-50%);
 }
 
 .main_banner .banner_inner_text h2 {
@@ -309,8 +255,6 @@ ul {
 
 	.main_banner .banner_inner_text {
 		width: 40%;
-		position: absolute;
-		top: 20%;
 	}
 
 	.main_banner .banner_inner_text h2 {
