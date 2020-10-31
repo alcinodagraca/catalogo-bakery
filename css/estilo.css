@@ -82,7 +82,7 @@ embed {
 	height: auto;
 }
 
-ul {
+ul, li {
 	list-style: none;
 }
 
@@ -142,6 +142,42 @@ ul {
 
 .head_location {
 	border-left: 3px solid var(--main-color);
+}
+
+/* TOP NAV STYLES */
+.main_top_nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 10rem;
+	background: var(--second-color);
+}
+
+.nav_list {
+	display: inherit;
+	justify-content: space-between;
+}
+
+.nav_list > * {
+	padding: 1rem;
+	color: var(--white-color);
+	font-size: 1.1rem;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+
+.nav_list > *:hover {
+	background: var(--active-color);
+	transition: background ease;
+}
+
+.active {
+	background: var(--active-color);
+}
+
+.fa-search {
+	font-size: 1.5rem;
+	color: var(--white-color);
 }
 
 /*     Main banner styles    */
