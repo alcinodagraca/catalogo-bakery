@@ -117,6 +117,33 @@ ul {
 	transition-duration: .5s;
 }
 
+/* TOP HEADER STYLES */
+.top_header {
+	display: flex;
+	justify-content: space-between;
+	padding: 2rem 14rem;
+	color: var(--main-color);
+}
+
+.logo {
+	font-size: 2.2rem;
+	color: var(--main-color);
+}
+
+.head_location_details {
+	display: inherit;
+	justify-content: inherit;
+}
+
+.head_phone_details,
+.head_location {
+	padding: .8rem 2rem;
+}
+
+.head_location {
+	border-left: 3px solid var(--main-color);
+}
+
 /*     Main banner styles    */
 .main_banner {
 	height: 300px;
