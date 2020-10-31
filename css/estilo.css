@@ -1,3 +1,13 @@
+/*=======VARIABLES=========*/
+:root {
+	--bg-color: #FFDEAD;
+	--main-color: #8B4513;
+	--second-color: #D2691E;
+	--active-color: #800000;
+	--dark-color: #000;
+	--white-color: #fff;
+	--link-color: #42659A;
+}
 /*=======RESET=========*/
 * {
 	margin: 0;
