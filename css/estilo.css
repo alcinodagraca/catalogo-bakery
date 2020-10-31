@@ -364,9 +364,7 @@ footer .copy_right {
 	.top_header .head_location .span_location {
 		margin-left: 14px;
 	}
-}
 
-@media screen and (min-width: 558px) {
 	.btn-menu {
 		display: none;
 	}
@@ -399,9 +397,7 @@ footer .copy_right {
 		font-family: 'montserrathairline';
 		font-weight: 300;
 	}
-}
 
-@media screen and (min-width: 558px) {
 	.main_banner {
 		height: auto;
 	}
@@ -419,9 +415,7 @@ footer .copy_right {
 	.main_banner .banner_inner_text h2 {
 		font-size: 5rem;
 	}
-}
 
-@media screen and (min-width: 558px) {
 	footer {
 		height: 350px;
 	}
