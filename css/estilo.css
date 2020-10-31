@@ -128,35 +128,6 @@ ul {
 	color: #8B4513;
 }
 
-@media screen and (min-width: 558px) {
-
-	.top_header .head_phone_details {
-		border-right: 2px solid #8B4513;
-		padding-left: 20px;
-		padding-top: 10px;
-	}
-
-
-	.top_header i {
-		font-size: 2em;
-		padding: 4px 5px 0 0;
-	}
-
-	.top_header .head_location {
-		width: 230px;
-		height: 20px;
-	}
-
-	.top_header .head_location .fa-map-marker {
-		margin-top: 30px;
-		margin-right: 5px;
-	}
-
-	.top_header .head_location .span_location {
-		margin-left: 14px;
-	}
-}
-
 
 /* main nav menu styles */
 .main_top_nav {
@@ -166,12 +137,6 @@ ul {
 
 .main_top_nav ul {
 	display: none;
-}
-
-.main_top_nav .search a,
-.btn-menu a i {
-	line-height: 50px;
-	float: right;
 }
 
 .main_top_nav .search a i,
@@ -185,41 +150,6 @@ ul {
 	color: #fff;
 	font-size: 1.5em;
 	padding-top: 10px;
-}
-
-@media screen and (min-width: 558px) {
-	.btn-menu {
-		display: none;
-	}
-
-	.main_top_nav ul {
-		display: block;
-		line-height: 50px;
-		list-style: none;
-	}
-
-	.main_top_nav ul li {
-		float: left;
-		margin-right: 15px;
-		padding: 0 20px;
-	}
-
-	.main_top_nav ul li:hover {
-		background-color: #800000;
-
-	}
-
-	.main_top_nav ul li.active {
-		background-color: #800000;
-	}
-
-	.main_top_nav ul li a {
-		color: #fff;
-		text-decoration: none;
-		text-transform: uppercase;
-		font-family: 'montserrathairline';
-		font-weight: 300;
-	}
 }
 
 /*     Main banner styles    */
@@ -239,26 +169,6 @@ ul {
 	font-size: 2rem;
 	color: #fff;
 	text-align: center;
-}
-
-@media screen and (min-width: 558px) {
-	.main_banner {
-		height: auto;
-	}
-
-	.main_banner img {
-		opacity: 1;
-		width: 100%;
-		height: 650px;
-	}
-
-	.main_banner .banner_inner_text {
-		width: 40%;
-	}
-
-	.main_banner .banner_inner_text h2 {
-		font-size: 5rem;
-	}
 }
 
 /* Catalogue styles  */
@@ -426,6 +336,89 @@ footer span {
 footer .copy_right {
 	color: #fff;
 	margin: 20px auto;
+}
+
+@media screen and (min-width: 558px) {
+
+	.top_header .head_phone_details {
+		border-right: 2px solid #8B4513;
+		padding-left: 20px;
+		padding-top: 10px;
+	}
+
+	.top_header i {
+		font-size: 2em;
+		padding: 4px 5px 0 0;
+	}
+
+	.top_header .head_location {
+		width: 230px;
+		height: 20px;
+	}
+
+	.top_header .head_location .fa-map-marker {
+		margin-top: 30px;
+		margin-right: 5px;
+	}
+
+	.top_header .head_location .span_location {
+		margin-left: 14px;
+	}
+}
+
+@media screen and (min-width: 558px) {
+	.btn-menu {
+		display: none;
+	}
+
+	.main_top_nav ul {
+		display: block;
+		line-height: 50px;
+		list-style: none;
+	}
+
+	.main_top_nav ul li {
+		float: left;
+		margin-right: 15px;
+		padding: 0 20px;
+	}
+
+	.main_top_nav ul li:hover {
+		background-color: #800000;
+
+	}
+
+	.main_top_nav ul li.active {
+		background-color: #800000;
+	}
+
+	.main_top_nav ul li a {
+		color: #fff;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-family: 'montserrathairline';
+		font-weight: 300;
+	}
+}
+
+@media screen and (min-width: 558px) {
+	.main_banner {
+		height: auto;
+	}
+
+	.main_banner img {
+		opacity: 1;
+		width: 100%;
+		height: 650px;
+	}
+
+	.main_banner .banner_inner_text {
+		width: 40%;
+	}
+
+	.main_banner .banner_inner_text h2 {
+		font-size: 5rem;
+	}
 }
 
 @media screen and (min-width: 558px) {
